@@ -20,6 +20,13 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 sudo apt-get update
 sudo apt-get install docker-ce -y
+sudo usermod -aG docker $USER
 
 echo Install Vim
 sudo apt-get instal -y vim
+
+echo Net Tools
+sudo apt-get install net-tools
+
+echo Compass
+sudo dpkg -i mongodb-compass_1.12.5_amd64.deb;
