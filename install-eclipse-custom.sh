@@ -6,9 +6,9 @@ sudo cat > /usr/share/applications/eclipse.desktop <<EOL
 [Desktop Entry]
 Name=Eclipse
 Type=Application
-Exec=/opt/eclipse/eclipse -vm $JAVA_HOME/bin
+Exec=/media/altitdb/eclipse-photon/eclipse/eclipse -vm $JAVA_HOME/bin
 Terminal=false
-Icon=/opt/eclipse/icon.xpm
+Icon=/media/altitdb/eclipse-photon/eclipse/icon.xpm
 Comment=Integrated Development Environment
 NoDisplay=false
 Categories=Development;
