@@ -23,7 +23,7 @@ echo Net Tools
 sudo apt-get install net-tools
 
 echo Install Visual Studio Code
-sudo dpkg -i code_1.25.1-1531323788_amd64.deb
+sudo dpkg -i code_1.34.0-1557957934_amd64.deb
 sudo apt-get install -f
 
 echo Install Chrome
