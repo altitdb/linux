@@ -22,10 +22,6 @@ sudo apt-get install -y vim
 echo Net Tools
 sudo apt-get install net-tools
 
-echo Install Visual Studio Code
-sudo dpkg -i code_1.34.0-1557957934_amd64.deb
-sudo apt-get install -f
-
 echo Install Chrome
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
